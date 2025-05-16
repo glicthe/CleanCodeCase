@@ -1,0 +1,6 @@
+projectKey=CleanCodeAirport
+serverUrl=http://localhost:9000
+serverVersion=25.3.0.104237
+dashboardUrl=http://localhost:9000/dashboard?id=CleanCodeAirport
+ceTaskId=e459878f-400c-40b3-887d-1af19ae6e8ab
+ceTaskUrl=http://localhost:9000/api/ce/task?id=e459878f-400c-40b3-887d-1af19ae6e8ab

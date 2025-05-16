@@ -1,3 +1,4 @@
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -22,7 +23,7 @@ public class AirportTest {
         }
         
         @Test
-        public void testEconomyFlightRegularPassanger(){
+        void testEconomyFlightRegularPassanger(){
             Passanger mike = new Passanger("Mike", false);
             
             assertEquals("1", economyFlight.getId());
@@ -35,7 +36,7 @@ public class AirportTest {
         }
         
         @Test
-        public void testEconomyFlightVipPassanger(){
+        void testEconomyFlightVipPassanger(){
             Passanger james = new Passanger("James", true);
             
             assertEquals("1", economyFlight.getId());
@@ -58,7 +59,7 @@ public class AirportTest {
         }
         
         @Test
-        public void testBusinessFlightRegularPassanger() {
+        void testBusinessFlightRegularPassanger() {
             Passanger mike = new Passanger("Mike", false);
             
             assertEquals(false, businessFlight.addPassanger(mike));
@@ -68,7 +69,7 @@ public class AirportTest {
         }
         
         @Test
-        public void testBusinessFlightVipPassanger() {
+        void testBusinessFlightVipPassanger() {
             Passanger james = new Passanger("James", true);
             assertEquals(true, businessFlight.addPassanger(james));
             assertEquals(1, businessFlight.getPassangersList().size());
@@ -77,4 +78,3 @@ public class AirportTest {
         }
     } 
 }
-
